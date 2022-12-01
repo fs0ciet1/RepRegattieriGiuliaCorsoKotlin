@@ -181,12 +181,7 @@ class Utente(var nome:String, var email:String, var password:String)
                 {
                     println("Dati errati")
                 }
-                else
-                {
-                    //creo condizione di arresto per uscire dal while
-                    index=3
-                }
-
+            
             }
             index++
         }
